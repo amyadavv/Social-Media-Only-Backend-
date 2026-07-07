@@ -74,6 +74,7 @@ export const getById = async (req, res, next) => {
     }
     return res.status(200).json({ blog });
 }
+//ye 
 export const deleteBlog = async (req, res, next) => {
     const id = req.params.id;
     let blog;
